@@ -1,6 +1,6 @@
 Summary: Versatile vmstat, iostat and ifstat replacement
 Name: dstat
-Version: 0.6.4
+Version: 0.6.5
 Release: %mkrel 1
 License: GPL
 Group: System/Kernel and hardware
@@ -39,6 +39,9 @@ interprete real-time data as easy as possible.
 
 %install
 %makeinstall
+
+mkdir -p %buildroot%_mandir/man1
+install -m 644 docs/dstat.1 %buildroot%_mandir/man1/dstat.1
 
 %clean
 %{__rm} -rf %{buildroot}
