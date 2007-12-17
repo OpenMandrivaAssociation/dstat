@@ -6,7 +6,6 @@ License: GPL
 Group: System/Kernel and hardware
 URL: http://dag.wieers.com/home-made/dstat/
 Source: http://dag.wieers.com/home-made/dstat/dstat-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 %description
