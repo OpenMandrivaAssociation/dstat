@@ -1,7 +1,7 @@
 Summary: Versatile vmstat, iostat and ifstat replacement
 Name: dstat
 Version: 0.7.1
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPL
 Group: System/Kernel and hardware
 URL: http://dag.wieers.com/home-made/dstat/
