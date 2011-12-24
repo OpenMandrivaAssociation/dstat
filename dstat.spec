@@ -1,12 +1,11 @@
 Summary: Versatile vmstat, iostat and ifstat replacement
 Name: dstat
-Version: 0.7.1
-Release: %mkrel 2
+Version: 0.7.2
+Release: 1
 License: GPL
 Group: System/Kernel and hardware
 URL: http://dag.wieers.com/home-made/dstat/
 Source: http://dag.wieers.com/home-made/dstat/dstat-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 %description
@@ -43,11 +42,7 @@ interprete real-time data as easy as possible.
 mkdir -p %buildroot%_mandir/man1
 install -m 644 docs/dstat.1 %buildroot%_mandir/man1/dstat.1
 
-%clean
-%{__rm} -rf %{buildroot}
-
 %files
-%defattr(-, root, root, 0755)
 %doc AUTHORS ChangeLog COPYING README TODO 
 %{_bindir}/dstat
 %_datadir/%name
