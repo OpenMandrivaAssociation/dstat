@@ -4,7 +4,7 @@ Version: 0.7.2
 Release: 2
 License: GPL
 Group: System/Kernel and hardware
-URL: http://dag.wieers.com/home-made/dstat/
+URL: https://dag.wieers.com/home-made/dstat/
 Source: http://dag.wieers.com/home-made/dstat/dstat-%{version}.tar.bz2
 BuildArch: noarch
 
